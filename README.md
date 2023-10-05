@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto Next.js con CRUD de Comentarios Filosóficos
 
-## Getting Started
+Este proyecto tiene como objetivo crear una aplicación web en Next.js para gestionar comentarios relacionados con cuestiones filosóficas de la vida. Utilizaremos Prisma como ORM (Object-Relational Mapping) y una base de datos PostgreSQL para almacenar y recuperar los comentarios de los usuarios.
 
-First, run the development server:
+## Características Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Creación de Comentarios:** Los usuarios pueden crear nuevos comentarios para expresar sus pensamientos filosóficos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Lectura de Comentarios:** Los comentarios existentes están disponibles para que los usuarios los lean y los consideren.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Actualización de Comentarios:** Los usuarios pueden editar sus comentarios existentes si desean hacer cambios o adiciones.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Eliminación de Comentarios:** Se permite la eliminación de comentarios, en caso de que los usuarios deseen retirar sus contribuciones.
 
-## Learn More
+- **Estilo Personalizado:** La aplicación cuenta con un diseño y estilo personalizado para mejorar la experiencia del usuario.
 
-To learn more about Next.js, take a look at the following resources:
+- **Gestión de Base de Datos:** Prisma se utiliza para gestionar la interacción con la base de datos PostgreSQL, facilitando las operaciones CRUD.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Implementación en Producción:** La aplicación se puede implementar en una plataforma de alojamiento para que esté disponible en línea.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Objetivo
 
-## Deploy on Vercel
+El objetivo de este proyecto es proporcionar una plataforma donde los entusiastas de la filosofía puedan compartir sus ideas y pensamientos con otros, promoviendo la discusión y la reflexión sobre cuestiones profundas de la vida.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Disfruta del desarrollo de tu proyecto filosófico en Next.js!
